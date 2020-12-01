@@ -1,0 +1,26 @@
+# /etc/conf.d/nocnocd: config file for /etc/init.d/nocnocd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/nocnoc/NocNoc.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/nocnocd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/NocNocd.pid"
+
+# Where to write nocnocd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/nocnocd"
+
+# User and group to own nocnocd process
+#BITCOIND_USER="nocnoc"
+#BITCOIND_GROUP="nocnoc"
+
+# Path to nocnocd executable
+#BITCOIND_BIN="/usr/bin/nocnocd"
+
+# Nice value to run nocnocd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=NocNoc
+Comment=NocNoc P2P Cryptocurrency
+Exec=nocnoc-qt %u
+Terminal=false
+Type=Application
+Icon=nocnoc128
+MimeType=x-scheme-handler/nocnoc;
+Categories=Office;Finance;
+Name[en_CA]=nocnoc-qt.desktop
