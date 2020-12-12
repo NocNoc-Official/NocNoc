@@ -102,7 +102,7 @@ public:
         nTargetSpacing = 1 * 60;  
         nMaturity = 50;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 10000000000 * COIN;
+        nMaxMoneyOut = 200000000 * COIN;
         nLastPOWBlock = 4000;
         nModifierUpdateBlock = 1;
         nZerocoinStartHeight = 3000000;
